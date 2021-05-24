@@ -14,8 +14,8 @@ import sub_main
 # instantiating the connection and load markets
 exchange_id = 'binance'
 exchange_class = getattr(ccxt, exchange_id)
-exchange = exchange_class({"api_key": "YrDGAnac0OnT4D6SHPkRqdvxpvM73Fm4F0b2fe5eStDsZbP3b6R1q2IikPtXjmBw",
-                           "api_secret": "TZ8TBQ1FHfwMnHiCZzjFBWaoCZDKxJT4BTLcAPxjjo5Yd1BJe18SsrrrffXUY4QFbmM",
+exchange = exchange_class({"api_key": "",
+                           "api_secret": "",
                            'timeout': 30000,
                            'enableRateLimit': True,
                            })
